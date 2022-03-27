@@ -34,3 +34,10 @@ registry=https://registry.npmjs.org/
 5. run `npm publish`
 
 ## Building CSS
+
+> NOTE : the plan is to build simple css first and then move onto integrating tailwind.
+
+1. create simple css file for the component and import it in tsx file
+2. now tell rollup how to handle css by installing `npm install rollup-plugin-postcss --save-dev`
+3. update rollup config, add the plugin and tell TS not to worry about css files
+4. run rollup and publish as `0.0.2`
