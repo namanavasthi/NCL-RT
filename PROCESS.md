@@ -20,4 +20,17 @@ want to document step-by-step process on how to setup this repo.
 
 ## Publishing The Library
 
+1. push code to git
+2. update `name` and `publishConfig` inside package.json
+3. head over to github, create a token with publish rights
+4. update `~/.npmrc` token and registry as follows :
+
+```
+registry=https://registry.npmjs.org/
+@YOUR_GITHUB_USERNAME:registry=https://npm.pkg.github.com/
+//npm.pkg.github.com/:_authToken=YOUR_AUTH_TOKEN
+```
+
+5. run `npm publish`
+
 ## Building CSS
