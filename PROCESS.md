@@ -72,3 +72,7 @@ registry=https://registry.npmjs.org/
 1. install scss for storybook and rollup `npm install @storybook/preset-scss css-loader sass sass-loader style-loader --save-dev`
 2. update storybook main.js
 3. update rollup config
+
+## Adding Tailwind
+
+1. publish progress as `0.0.3`
