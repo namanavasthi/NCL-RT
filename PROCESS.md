@@ -15,6 +15,8 @@ want to document step-by-step process on how to setup this repo.
 8. updating ts config
 9. adding rollup `npm install rollup @rollup/plugin-node-resolve @rollup/plugin-typescript @rollup/plugin-commonjs rollup-plugin-dts --save-dev`
 10. adding rollup config
+11. updating package.json
+12. run a build using `npm run rollup`
 
 ## Publishing The Library
 
