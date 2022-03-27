@@ -66,3 +66,9 @@ registry=https://registry.npmjs.org/
 1. `npx sb init --builder webpack5`
 2. run `npm run storybook`
    > if you encounter any errors `rm -rf dist/ node_modules/ package-lock.json` and fresh-install using `npm install`
+
+## Adding SCSS Support
+
+1. install scss for storybook and rollup `npm install @storybook/preset-scss css-loader sass sass-loader style-loader --save-dev`
+2. update storybook main.js
+3. update rollup config
