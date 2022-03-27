@@ -47,3 +47,16 @@ registry=https://registry.npmjs.org/
 1. adding `terser` for minification and peer dependencies for rollup `npm install rollup-plugin-peer-deps-external rollup-plugin-terser --save-dev`
 2. update rollup to use terser and peer dependencies
 3. update peer dependencies in `package.json` for `react`
+
+## Adding Tests
+
+1. add react testing library to test components and jest to run them `npm install @testing-library/react jest @types/jest --save-dev`
+2. add a component test
+3. add jest config
+4. add a package.json command
+5. we were using tsc for processing our jsx and then tsc made rollup understand jsx using the ts plugin for rollup. now we have to do something similar with jest.
+6. we use babel to handle jsx transformations and babel-jest to make jest use babel `npm install @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript babel-jest --save-dev`
+7. add babel config
+8. now, we configured postcss for rollup but jest isn't aware on how to handle css. so for that we use identity object proxy `npm install identity-obj-proxy --save-dev`
+9. update jest config
+10. run `npm run test`
