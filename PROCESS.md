@@ -41,3 +41,9 @@ registry=https://registry.npmjs.org/
 2. now tell rollup how to handle css by installing `npm install rollup-plugin-postcss --save-dev`
 3. update rollup config, add the plugin and tell TS not to worry about css files
 4. run rollup and publish as `0.0.2`
+
+## Optimization
+
+1. adding `terser` for minification and peer dependencies for rollup `npm install rollup-plugin-peer-deps-external rollup-plugin-terser --save-dev`
+2. update rollup to use terser and peer dependencies
+3. update peer dependencies in `package.json` for `react`
