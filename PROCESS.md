@@ -81,3 +81,8 @@ registry=https://registry.npmjs.org/
 4. add tailwind config
 5. add an index.css file
 6. update button stories file with index include
+7. add `npm install -D storybook-addon-sass-postcss`
+8. remove `npm uninstall @storybook/preset-scss @storybook/addon-postcss`
+9. `rm -rf dist/ node_modules/ package-lock.json`
+10. `npm install`
+    > if `@storybook/react` shows as error then install it manually
