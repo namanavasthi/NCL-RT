@@ -76,3 +76,8 @@ registry=https://registry.npmjs.org/
 ## Adding Tailwind
 
 1. publish progress as `0.0.3`
+2. `npm install -D tailwindcss autoprefixer`
+3. add postcss config
+4. add tailwind config
+5. add an index.css file
+6. update button stories file with index include
