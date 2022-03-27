@@ -60,3 +60,9 @@ registry=https://registry.npmjs.org/
 8. now, we configured postcss for rollup but jest isn't aware on how to handle css. so for that we use identity object proxy `npm install identity-obj-proxy --save-dev`
 9. update jest config
 10. run `npm run test`
+
+## Adding Storybook
+
+1. `npx sb init --builder webpack5`
+2. run `npm run storybook`
+   > if you encounter any errors `rm -rf dist/ node_modules/ package-lock.json` and fresh-install using `npm install`
