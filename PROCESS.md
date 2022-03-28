@@ -86,3 +86,12 @@ registry=https://registry.npmjs.org/
 9. `rm -rf dist/ node_modules/ package-lock.json`
 10. `npm install`
     > if `@storybook/react` shows as error then install it manually
+
+## Adding ESLint
+
+1. `npm install eslint --save-dev`
+2. `npx install-peerdeps --dev eslint-config-airbnb`
+3. `npx eslint ./ --ext .ts --ext .tsx`
+4. now install `npx eslint --init`
+5. update package.json command to look at src
+6. update .eslintrc.json
