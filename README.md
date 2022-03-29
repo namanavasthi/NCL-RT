@@ -14,6 +14,4 @@ OS : `macOS Monterey v12.3`
 
 1. add changelog
 2. add custom tailwind config
-3. add version for node and npm ✅
-4. add eslint, look up some react based integration tutorial with ts
-5. add prettier
+3. add prettier
